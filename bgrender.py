@@ -1,14 +1,12 @@
-###############################################################################
-# blender_background_launcher.py                           by. Samuel Bernou  #
-###############################################################################
-
+### Blender background rendering script --- Samuel.B ###
 # -*- coding: cp1252 -*-
 import os
 import sys
 import re
 import datetime
-##set current working directory to script location :
-#os.chdir(os.path.dirname(sys.argv[0]))
+
+## uncomment bottom line to set current working directory to script location :
+# os.chdir(os.path.dirname(sys.argv[0]))
 
 def checknum(inp):
 	try:
